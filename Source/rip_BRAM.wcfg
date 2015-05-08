@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/C16John.Terragnoli/Documents/Junior year/Academics/Second Semester/ECE 383/ISE Projects/Final_Project_a/Final_indexes_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="final_indexes_tb" />
+            <top_module name="lab2parts" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_signed" />
+            <top_module name="std_logic_textio" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="textio" />
+            <top_module name="vcomponents" />
+            <top_module name="vcomponents" />
+            <top_module name="vital_primitives" />
+            <top_module name="vital_timing" />
+            <top_module name="vpkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="18" />
+   <wvobject fp_name="/final_indexes_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/final_indexes_tb/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/final_indexes_tb/uut/datapath/easybutton" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">easybutton</obj_property>
+      <obj_property name="ObjectShortName">easybutton</obj_property>
+   </wvobject>
+   <wvobject fp_name="/final_indexes_tb/uut/datapath/sw" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sw[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sw[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/final_indexes_tb/uut/datapath/cw" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cw[4:0]</obj_property>
+      <obj_property name="ObjectShortName">cw[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/final_indexes_tb/uut/datapath/checkBlueWin/state" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/final_indexes_tb/uut/datapath/checkBlueWin/wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wren</obj_property>
+      <obj_property name="ObjectShortName">wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/final_indexes_tb/uut/datapath/whoseturn" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">whoseturn[1:0]</obj_property>
+      <obj_property name="ObjectShortName">whoseturn[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/final_indexes_tb/uut/datapath/wraddr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">wraddr[9:0]</obj_property>
+      <obj_property name="ObjectShortName">wraddr[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/final_indexes_tb/uut/datapath/checkBlueWin/chosenrow" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">chosenrow[3:0]</obj_property>
+      <obj_property name="ObjectShortName">chosenrow[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/final_indexes_tb/uut/datapath/checkBlueWin/chosencol" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">chosencol[3:0]</obj_property>
+      <obj_property name="ObjectShortName">chosencol[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/final_indexes_tb/uut/datapath/checkBlueWin/rdaddr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rdaddr[9:0]</obj_property>
+      <obj_property name="ObjectShortName">rdaddr[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/final_indexes_tb/uut/datapath/checkBlueWin/markerrow" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">markerrow[3:0]</obj_property>
+      <obj_property name="ObjectShortName">markerrow[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/final_indexes_tb/uut/datapath/checkBlueWin/markercol" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">markercol[3:0]</obj_property>
+      <obj_property name="ObjectShortName">markercol[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/final_indexes_tb/uut/datapath/checkBlueWin/currentspot" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">currentspot[1:0]</obj_property>
+      <obj_property name="ObjectShortName">currentspot[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/final_indexes_tb/uut/datapath/checkBlueWin/down1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">down1[1:0]</obj_property>
+      <obj_property name="ObjectShortName">down1[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/final_indexes_tb/uut/datapath/checkBlueWin/down2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">down2[1:0]</obj_property>
+      <obj_property name="ObjectShortName">down2[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/final_indexes_tb/uut/datapath/checkBlueWin/down3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">down3[1:0]</obj_property>
+      <obj_property name="ObjectShortName">down3[1:0]</obj_property>
+   </wvobject>
+</wave_config>

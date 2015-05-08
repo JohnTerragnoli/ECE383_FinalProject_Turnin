@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/C16John.Terragnoli/Documents/Junior year/Academics/Second Semester/ECE 383/ISE Projects/Final_Project_a/decode_counts_32_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="decode_counts_32" />
+            <top_module name="lab2parts" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="vcomponents" />
+            <top_module name="vcomponents" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="11" />
+   <wvobject fp_name="/decode_counts_32/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decode_counts_32/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decode_counts_32/uut/cwinternal" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cwinternal[6:0]</obj_property>
+      <obj_property name="ObjectShortName">cwinternal[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decode_counts_32/irsignal" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">irsignal</obj_property>
+      <obj_property name="ObjectShortName">irsignal</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decode_counts_32/uut/state" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decode_counts_32/uut/timecount" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">timecount[22:0]</obj_property>
+      <obj_property name="ObjectShortName">timecount[22:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decode_counts_32/uut/shiftregaddress" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">shiftregaddress[22:0]</obj_property>
+      <obj_property name="ObjectShortName">shiftregaddress[22:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decode_counts_32/uut/startbit" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">startbit</obj_property>
+      <obj_property name="ObjectShortName">startbit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decode_counts_32/uut/decodedbit" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">decodedbit[1:0]</obj_property>
+      <obj_property name="ObjectShortName">decodedbit[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decode_counts_32/uut/decodedsignal" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">decodedsignal[31:0]</obj_property>
+      <obj_property name="ObjectShortName">decodedsignal[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decode_counts_32/uut/buttonhit" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">buttonhit[3:0]</obj_property>
+      <obj_property name="ObjectShortName">buttonhit[3:0]</obj_property>
+   </wvobject>
+</wave_config>
