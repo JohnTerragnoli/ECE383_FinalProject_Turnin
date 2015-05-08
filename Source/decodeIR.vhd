@@ -43,18 +43,18 @@ architecture Behavioral of decodeIR is
 	constant ZeroUpper : unsigned (18 downto 0) := "0001110101001100000";
 	constant ZeroLower : unsigned (18 downto 0) := "0001100001101010000";
 	
-	
-	constant OneUpper : unsigned (18 downto 0) := "0101011111100100000";
-	constant OneLower : unsigned (18 downto 0) := "0100111000100000000";
-	constant startBitUpper : unsigned (18 downto 0) := "1110101001100000000";
-	constant startBitLower : unsigned (18 downto 0) := "1101011011011000000";
+--	
+--	constant OneUpper : unsigned (18 downto 0) := "0101011111100100000";
+--	constant OneLower : unsigned (18 downto 0) := "0100111000100000000";
+--	constant startBitUpper : unsigned (18 downto 0) := "1110101001100000000";
+--	constant startBitLower : unsigned (18 downto 0) := "1101011011011000000";
 
 	
 	--TESTBENCH
---	constant OneUpper : unsigned (18 downto 0) := "0000000000000111111";
---	constant OneLower : unsigned (18 downto 0) := "0000000000000000101";
-----	constant startBitUpper : unsigned (18 downto 0) := "0000000000000111100";
---	constant startBitLower : unsigned (18 downto 0) := "0000000000000101000";
+	constant OneUpper : unsigned (18 downto 0) := "0000000000000111111";
+	constant OneLower : unsigned (18 downto 0) := "0000000000000000101";
+	constant startBitUpper : unsigned (18 downto 0) := "0000000000000111100";
+	constant startBitLower : unsigned (18 downto 0) := "0000000000000101000";
 	
 	
 	
@@ -250,7 +250,7 @@ testingSignals(3 downto 0) <=
 	--			1 : enabled 
 
 	cwInternal <= 	
-						"0000000" when (state = IndefHigh) else
+						"0100000" when (state = IndefHigh) else
 						"0000000" when (state = StartLow) else
 						"0001000" when (state = Reset_startCounter) else
 						"0001011" when (state = Start_BitCount) else
@@ -301,7 +301,7 @@ testingSignals(3 downto 0) <=
 			if (reset = '0') then
 				-- add rese stuff here (Coulston)
 				startBit <= '0'; 
-			elsf(cwInternal(6) = '1') then 				--now we can decode the signal. 
+			elsif(cwInternal(6) = '1') then 				--now we can decode the signal. 
 				if((timeCount >= startBitLower)and (timeCount <= startBitUpper)) then 
 					startBit <= '1'; 
 				else 

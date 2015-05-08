@@ -1,22 +1,22 @@
 --------------------------------------------------------------------------------
--- Company: 
--- Engineer:
+-- Company:  USAFA 
+-- Engineer:C2C John Terragnoli 
 --
 -- Create Date:   01:09:31 04/21/2015
--- Design Name:   
+-- Design Name:   Connect Four
 -- Module Name:   C:/Users/C16John.Terragnoli/Documents/Junior year/Academics/Second Semester/ECE 383/ISE Projects/Final_Project_a/FSM_TB.vhd
 -- Project Name:  Final_Project_a
--- Target Device:  
--- Tool versions:  
--- Description:   
+-- Target Device:  ATYLS
+-- Tool versions:  Spartan 6
+-- Description:   Ensures the master FSM is working correctly.  
 -- 
 -- VHDL Test Bench Created by ISE for module: Final_fsm_a
 -- 
--- Dependencies:
+-- Dependencies: none
 -- 
--- Revision:
+-- Revision: none
 -- Revision 0.01 - File Created
--- Additional Comments:
+-- Additional Comments: none 
 --
 -- Notes: 
 -- This testbench has been automatically generated using types std_logic and

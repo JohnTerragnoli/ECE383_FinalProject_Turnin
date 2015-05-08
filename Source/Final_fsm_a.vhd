@@ -1,20 +1,20 @@
 ----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
+-- Company: USAFA
+-- Engineer:  C2C John Terragnoli 
 -- 
 -- Create Date:    15:15:33 04/17/2015 
--- Design Name: 
+-- Design Name:  Connect Four
 -- Module Name:    Final_fsm_a - Behavioral 
--- Project Name: 
--- Target Devices: 
--- Tool versions: 
--- Description: 
+-- Project Name:  Connect Four
+-- Target Devices: ATYLS
+-- Tool versions: Spartan 6
+-- Description: cntrols the overall operation of the connect four game
 --
--- Dependencies: 
+-- Dependencies:  datapath
 --
--- Revision: 
+-- Revision: none 
 -- Revision 0.01 - File Createdw
--- Additional Comments: 
+-- Additional Comments: none
 --
 ----------------------------------------------------------------------------------
 library IEEE;

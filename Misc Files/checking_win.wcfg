@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/C16John.Terragnoli/Documents/Junior year/Academics/Second Semester/ECE 383/ISE Projects/Final_Project_a/winning_read_test_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="lab2parts" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_signed" />
+            <top_module name="std_logic_textio" />
+            <top_module name="textio" />
+            <top_module name="vcomponents" />
+            <top_module name="vcomponents" />
+            <top_module name="vital_primitives" />
+            <top_module name="vital_timing" />
+            <top_module name="vpkg" />
+            <top_module name="winning_read_test" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="50" />
+   <wvobject fp_name="/winning_read_test/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/winning_read_test/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/winning_read_test/wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wren</obj_property>
+      <obj_property name="ObjectShortName">wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/winning_read_test/whoseturn" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">whoseturn[1:0]</obj_property>
+      <obj_property name="ObjectShortName">whoseturn[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/winning_read_test/testto" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">testto[1:0]</obj_property>
+      <obj_property name="ObjectShortName">testto[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/winning_read_test/wraddr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">wraddr[9:0]</obj_property>
+      <obj_property name="ObjectShortName">wraddr[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/winning_read_test/uut/anchorrow" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">anchorrow[3:0]</obj_property>
+      <obj_property name="ObjectShortName">anchorrow[3:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffa500</obj_property>
+   </wvobject>
+   <wvobject fp_name="/winning_read_test/uut/anchorcol" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">anchorcol[3:0]</obj_property>
+      <obj_property name="ObjectShortName">anchorcol[3:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffa500</obj_property>
+   </wvobject>
+   <wvobject fp_name="/winning_read_test/uut/riprow" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">riprow[3:0]</obj_property>
+      <obj_property name="ObjectShortName">riprow[3:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffa500</obj_property>
+   </wvobject>
+   <wvobject fp_name="/winning_read_test/uut/ripcol" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ripcol[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ripcol[3:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffa500</obj_property>
+   </wvobject>
+   <wvobject fp_name="/winning_read_test/startcheck" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">startcheck</obj_property>
+      <obj_property name="ObjectShortName">startcheck</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffa500</obj_property>
+   </wvobject>
+   <wvobject fp_name="/winning_read_test/finishedcheck" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">finishedcheck</obj_property>
+      <obj_property name="ObjectShortName">finishedcheck</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffa500</obj_property>
+   </wvobject>
+   <wvobject fp_name="/winning_read_test/uut/state" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffa500</obj_property>
+   </wvobject>
+   <wvobject fp_name="/winning_read_test/uut/whaton" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">whaton[1:0]</obj_property>
+      <obj_property name="ObjectShortName">whaton[1:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffa500</obj_property>
+   </wvobject>
+   <wvobject fp_name="/winning_read_test/uut/currentspot" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">currentspot[1:0]</obj_property>
+      <obj_property name="ObjectShortName">currentspot[1:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/winning_read_test/uut/right1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">right1[1:0]</obj_property>
+      <obj_property name="ObjectShortName">right1[1:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/winning_read_test/uut/right2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">right2[1:0]</obj_property>
+      <obj_property name="ObjectShortName">right2[1:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/winning_read_test/uut/right3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">right3[1:0]</obj_property>
+      <obj_property name="ObjectShortName">right3[1:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/winning_read_test/uut/left1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">left1[1:0]</obj_property>
+      <obj_property name="ObjectShortName">left1[1:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/winning_read_test/uut/left2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">left2[1:0]</obj_property>
+      <obj_property name="ObjectShortName">left2[1:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/winning_read_test/uut/left3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">left3[1:0]</obj_property>
+      <obj_property name="ObjectShortName">left3[1:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/winning_read_test/uut/down1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">down1[1:0]</obj_property>
+      <obj_property name="ObjectShortName">down1[1:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/winning_read_test/uut/down2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">down2[1:0]</obj_property>
+      <obj_property name="ObjectShortName">down2[1:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/winning_read_test/uut/down3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">down3[1:0]</obj_property>
+      <obj_property name="ObjectShortName">down3[1:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/winning_read_test/uut/upright1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">upright1[1:0]</obj_property>
+      <obj_property name="ObjectShortName">upright1[1:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/winning_read_test/uut/upright2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">upright2[1:0]</obj_property>
+      <obj_property name="ObjectShortName">upright2[1:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/winning_read_test/uut/upright3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">upright3[1:0]</obj_property>
+      <obj_property name="ObjectShortName">upright3[1:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/winning_read_test/uut/upleft1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">upleft1[1:0]</obj_property>
+      <obj_property name="ObjectShortName">upleft1[1:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/winning_read_test/uut/upleft2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">upleft2[1:0]</obj_property>
+      <obj_property name="ObjectShortName">upleft2[1:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/winning_read_test/uut/upleft3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">upleft3[1:0]</obj_property>
+      <obj_property name="ObjectShortName">upleft3[1:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/winning_read_test/uut/downright1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">downright1[1:0]</obj_property>
+      <obj_property name="ObjectShortName">downright1[1:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/winning_read_test/uut/downright2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">downright2[1:0]</obj_property>
+      <obj_property name="ObjectShortName">downright2[1:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/winning_read_test/uut/downright3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">downright3[1:0]</obj_property>
+      <obj_property name="ObjectShortName">downright3[1:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/winning_read_test/uut/downleft1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">downleft1[1:0]</obj_property>
+      <obj_property name="ObjectShortName">downleft1[1:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/winning_read_test/uut/downleft2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">downleft2[1:0]</obj_property>
+      <obj_property name="ObjectShortName">downleft2[1:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/winning_read_test/uut/downleft3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">downleft3[1:0]</obj_property>
+      <obj_property name="ObjectShortName">downleft3[1:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/winning_read_test/awinner" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">awinner</obj_property>
+      <obj_property name="ObjectShortName">awinner</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/winning_read_test/uut/horizontal4" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">horizontal4</obj_property>
+      <obj_property name="ObjectShortName">horizontal4</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/winning_read_test/uut/horizontal3" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">horizontal3</obj_property>
+      <obj_property name="ObjectShortName">horizontal3</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/winning_read_test/uut/horizontal2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">horizontal2</obj_property>
+      <obj_property name="ObjectShortName">horizontal2</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/winning_read_test/uut/horizontal1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">horizontal1</obj_property>
+      <obj_property name="ObjectShortName">horizontal1</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/winning_read_test/uut/vertical4" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">vertical4</obj_property>
+      <obj_property name="ObjectShortName">vertical4</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/winning_read_test/uut/positivediag1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">positivediag1</obj_property>
+      <obj_property name="ObjectShortName">positivediag1</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/winning_read_test/uut/positivediag2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">positivediag2</obj_property>
+      <obj_property name="ObjectShortName">positivediag2</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/winning_read_test/uut/positivediag3" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">positivediag3</obj_property>
+      <obj_property name="ObjectShortName">positivediag3</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/winning_read_test/uut/positivediag4" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">positivediag4</obj_property>
+      <obj_property name="ObjectShortName">positivediag4</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/winning_read_test/uut/negativediag1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">negativediag1</obj_property>
+      <obj_property name="ObjectShortName">negativediag1</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/winning_read_test/uut/negativediag2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">negativediag2</obj_property>
+      <obj_property name="ObjectShortName">negativediag2</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/winning_read_test/uut/negativediag3" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">negativediag3</obj_property>
+      <obj_property name="ObjectShortName">negativediag3</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/winning_read_test/uut/negativediag4" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">negativediag4</obj_property>
+      <obj_property name="ObjectShortName">negativediag4</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+</wave_config>

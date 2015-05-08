@@ -1,20 +1,21 @@
 ----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
+-- Company:  USAFA
+-- Engineer: C2C John Terragnoli 
 -- 
 -- Create Date:    13:29:27 04/17/2015 
--- Design Name: 
+-- Design Name: 	Connect Four
 -- Module Name:    Final_DP - Behavioral 
--- Project Name: 
--- Target Devices: 
--- Tool versions: 
--- Description: 
+-- Project Name:    Connect Four
+-- Target Devices: ATLYS
+-- Tool versions: Spartan 6
+-- Description:  Listens to the CU to either save signals, write signals, or end the game, 
+--						as directed by the CU
 --
--- Dependencies: 
+-- Dependencies: CU
 --
--- Revision: 
+-- Revision: none
 -- Revision 0.01 - File Created
--- Additional Comments: 
+-- Additional Comments: none
 --
 ----------------------------------------------------------------------------------
 library IEEE;

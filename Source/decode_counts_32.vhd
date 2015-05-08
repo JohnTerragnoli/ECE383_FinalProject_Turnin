@@ -1,14 +1,14 @@
 --------------------------------------------------------------------------------
--- Company: 
--- Engineer:
+-- Company: USAFA
+-- Engineer: C2C John Terragnoli 
 --
 -- Create Date:   22:18:46 05/04/2015
--- Design Name:   
+-- Design Name:   Connect Four
 -- Module Name:   C:/Users/C16John.Terragnoli/Documents/Junior year/Academics/Second Semester/ECE 383/ISE Projects/Final_Project_a/decode_counts_32.vhd
 -- Project Name:  Final_Project_a
--- Target Device:  
--- Tool versions:  
--- Description:   
+-- Target Device:  ATYLS
+-- Tool versions:  Spartan 6
+-- Description:   makes sure the IR signal can be decoded properly 
 -- 
 -- VHDL Test Bench Created by ISE for module: decodeIR
 -- 
